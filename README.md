@@ -15,7 +15,7 @@ In **`js/config.js`**:
 | `instagram` | Instagram-Name ohne `@` (leer lassen zum Ausblenden) |
 | `mostrarPrecios` | `false` → überall „Consultar precio“ statt Preisen |
 
-> ⚠️ Die Nummer und die E-Mail sind aktuell **Platzhalter**. Auch die **Preise** in `js/products.js` sind nur Beispielwerte.
+> ⚠️ Die **Preise** in `js/products.js` sind nur Beispielwerte.
 
 ## Produkte bearbeiten
 
