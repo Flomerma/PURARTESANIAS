@@ -1,6 +1,6 @@
 # Pura Artesanías
 
-Webshop für Kunsthandwerk aus Salta (Argentinien). Bestellungen laufen über **WhatsApp** oder **E-Mail**: Der Warenkorb erzeugt automatisch eine fertige Nachricht.
+Webshop fuer Kunsthandwerk aus Salta (Argentinien). Bestellungen laufen über **WhatsApp** oder **E-Mail**: Der Warenkorb erzeugt automatisch eine fertige Nachricht.
 
 Reine statische Seite (HTML/CSS/JS), kein Build-Schritt, keine Abhängigkeiten.
 
