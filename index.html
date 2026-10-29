@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pura Artesanías · Artesanías de Salta</title>
+  <meta name="description" content="Ocarinas de barro, plata, piedras y tallados hechos a mano en Salta, Argentina. Pedidos por WhatsApp o email." />
+  <meta name="theme-color" content="#7a0c1f" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pura Artesanías · Artesanías de Salta" />
+  <meta property="og:description" content="Ocarinas de barro, plata, piedras y tallados hechos a mano en Salta, Argentina." />
+  <meta property="og:image" content="img/puesto/puesto-completo.jpg" />
+  <meta property="og:locale" content="es_AR" />
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#tienda">Ir a la tienda</a>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="header">
+    <div class="wrap header__inner">
+      <a href="#" class="brand" aria-label="Pura Artesanías, inicio">
+        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 0h6v3h3v3h3v3h3v6h-3v3h-3v3h-3v3H9v-3H6v-3H3v-3H0V9h3V6h3V3h3zM12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
+        </svg>
+        <span class="brand__name">Pura<span>Artesanías</span></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#tienda">Tienda</a>
+        <a href="#como-comprar">Cómo comprar</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="cart-btn" type="button" data-open-cart aria-label="Abrir pedido">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 10V6a3 3 0 0 1 6 0v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span class="cart-btn__label">Mi pedido</span>
+        <span class="cart-btn__count" data-cart-count hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PORTADA ============ -->
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__text">
+          <p class="kicker">Hecho a mano en Salta</p>
+          <h1>El barro, la piedra y la plata del <em>norte argentino</em></h1>
+          <p class="lead">Ocarinas grabadas, joyas de plata con piedras naturales, tallados en ónix y cristales de los cerros. Elegí tus piezas y hacé tu pedido por WhatsApp o email.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#tienda">Ver la tienda</a>
+            <a class="btn btn--ghost" data-wa-link href="#" target="_blank" rel="noopener">Escribinos</a>
+          </div>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <div class="hero__photo">
+            <img src="img/puesto/anillos-y-ocarinas.jpg" alt="" width="1400" height="1050" />
+          </div>
+          <svg class="hero__ocarina" viewBox="0 0 220 170">
+            <defs>
+              <radialGradient id="barro" cx="40%" cy="35%" r="75%">
+                <stop offset="0" stop-color="#7a5040"/>
+                <stop offset=".6" stop-color="#4a2e22"/>
+                <stop offset="1" stop-color="#2f1c15"/>
+              </radialGradient>
+            </defs>
+            <path d="M28 70c-8-6-10-18-2-24s20-2 26 4" fill="url(#barro)"/>
+            <ellipse cx="118" cy="92" rx="92" ry="66" fill="url(#barro)"/>
+            <g fill="none" stroke="#d9b48f" stroke-width="2.4" stroke-linecap="round" opacity=".85">
+              <path d="M118 92m-6 0a6 6 0 1 1 12 0a12 12 0 1 1-24 0a18 18 0 1 1 36 0a24 24 0 1 1-48 0"/>
+              <path d="M44 92h14M178 92h14M118 32v12M118 140v12"/>
+              <path d="M60 60l8 6M176 60l-8 6M60 124l8-6M176 124l-8-6"/>
+            </g>
+            <g fill="#1e110c">
+              <circle cx="78" cy="64" r="6"/><circle cx="160" cy="62" r="6"/>
+              <circle cx="80" cy="122" r="5"/><circle cx="158" cy="124" r="5"/>
+              <circle cx="30" cy="58" r="3.5"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <div class="band" aria-hidden="true"></div>
+
+    <!-- ============ TIENDA ============ -->
+    <section id="tienda" class="section shop">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Tienda</p>
+          <h2>Piezas únicas, hechas una por una</h2>
+          <p class="muted">Cada pieza es artesanal: puede variar un poco respecto de la foto. Si buscás algo puntual, consultanos.</p>
+        </header>
+
+        <div class="filters" role="toolbar" aria-label="Filtrar por categoría" data-filters></div>
+
+        <div class="grid" data-grid aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO COMPRAR ============ -->
+    <section id="como-comprar" class="section how">
+      <div class="wrap">
+        <header class="section__head section__head--light">
+          <p class="kicker">Cómo comprar</p>
+          <h2>Tres pasos, sin vueltas</h2>
+        </header>
+        <ol class="steps">
+          <li>
+            <span class="steps__n">1</span>
+            <h3>Elegí tus piezas</h3>
+            <p>Agregá a tu pedido lo que te guste, con el talle, color o modelo que prefieras.</p>
+          </li>
+          <li>
+            <span class="steps__n">2</span>
+            <h3>Envianos el pedido</h3>
+            <p>Con un clic se arma el mensaje con todo tu pedido. Lo mandás por WhatsApp o por email.</p>
+          </li>
+          <li>
+            <span class="steps__n">3</span>
+            <h3>Coordinamos pago y entrega</h3>
+            <p>Te respondemos para confirmar disponibilidad, forma de pago y envío o retiro en Salta.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="band" aria-hidden="true"></div>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section id="nosotros" class="section about">
+      <div class="wrap about__inner">
+        <div class="about__text">
+          <p class="kicker">Nosotros</p>
+          <h2>Un puesto bajo los árboles, ahora también online</h2>
+          <p>Somos artesanos de Salta. Nuestro puesto, sobre una manta roja a la sombra de los algarrobos, reúne ocarinas de barro, joyería de plata, piedras de la región y figuras talladas a mano.</p>
+          <p>Con esta tienda queremos que nuestras piezas lleguen más lejos, manteniendo el trato directo de siempre: nos escribís, charlamos y te mandamos tu pedido.</p>
+          <ul class="facts">
+            <li><strong>Hecho a mano</strong> Cada pieza es única.</li>
+            <li><strong>Desde Salta</strong> Envíos a todo el país.</li>
+            <li><strong>Trato directo</strong> Sin intermediarios.</li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <figure class="gallery__tall"><img src="img/puesto/puesto-completo.jpg" alt="El puesto completo sobre una manta roja con collares, anillos, ocarinas y geodas de amatista" loading="lazy" width="1050" height="1400" /></figure>
+          <figure><img src="img/puesto/rosarios-y-collares.jpg" alt="Rosarios de ónix, quenas pintadas y collares con piedras" loading="lazy" width="1400" height="1050" /></figure>
+          <figure><img src="img/puesto/joyeria.jpg" alt="Figuras de ónix, collares, brazaletes y anillos" loading="lazy" width="1400" height="1050" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section id="contacto" class="section contact">
+      <div class="wrap contact__inner">
+        <div>
+          <p class="kicker">Contacto y envíos</p>
+          <h2>¿Una consulta? Escribinos</h2>
+          <p class="muted">Respondemos por WhatsApp y email. Si querés ver más fotos de una pieza, pedilas sin problema.</p>
+          <div class="contact__links">
+            <a class="contact-card" data-wa-link href="#" target="_blank" rel="noopener">
+              <span class="contact-card__icon contact-card__icon--wa" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>
+              </span>
+              <span><strong>WhatsApp</strong><span data-wa-text></span></span>
+            </a>
+            <a class="contact-card" data-mail-link href="#">
+              <span class="contact-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+              </span>
+              <span><strong>Email</strong><span data-mail-text></span></span>
+            </a>
+            <a class="contact-card" data-ig-link href="#" target="_blank" rel="noopener" hidden>
+              <span class="contact-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+              </span>
+              <span><strong>Instagram</strong><span data-ig-text></span></span>
+            </a>
+          </div>
+        </div>
+        <dl class="shipping">
+          <div>
+            <dt>Retiro en Salta</dt>
+            <dd>Coordinamos día y lugar para que retires tu pedido sin costo.</dd>
+          </div>
+          <div>
+            <dt>Envíos a todo el país</dt>
+            <dd>Despachamos por correo a cualquier punto de Argentina. El costo se calcula según destino.</dd>
+          </div>
+          <div>
+            <dt>Envíos al exterior</dt>
+            <dd>Consultanos: buscamos la mejor opción para que tu pieza llegue bien.</dd>
+          </div>
+          <div>
+            <dt>Formas de pago</dt>
+            <dd>Transferencia o efectivo al retirar. Lo coordinamos por mensaje.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="band band--thin" aria-hidden="true"></div>
+    <div class="wrap footer__inner">
+      <span class="brand brand--footer">
+        <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M9 0h6v3h3v3h3v3h3v6h-3v3h-3v3h-3v3H9v-3H6v-3H3v-3H0V9h3V6h3V3h3zM12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/></svg>
+        <span class="brand__name">Pura<span>Artesanías</span></span>
+      </span>
+      <p>Artesanías hechas a mano · <span data-ubicacion>Salta, Argentina</span></p>
+      <p class="footer__small">© <span data-year></span> Pura Artesanías</p>
+    </div>
+  </footer>
+
+  <!-- ============ BOTÓN WHATSAPP FLOTANTE ============ -->
+  <a class="wa-float" data-wa-link href="#" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>
+  </a>
+
+  <!-- ============ PEDIDO (CARRITO) ============ -->
+  <div class="overlay" data-overlay hidden></div>
+  <aside class="drawer" data-drawer aria-label="Tu pedido" aria-hidden="true" inert>
+    <header class="drawer__head">
+      <h2>Tu pedido</h2>
+      <button class="icon-btn" type="button" data-close-cart aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+
+    <div class="drawer__body">
+      <p class="drawer__empty" data-cart-empty>Todavía no agregaste piezas. <a href="#tienda" data-close-cart>Ver la tienda</a></p>
+      <ul class="cart-list" data-cart-list></ul>
+
+      <form class="order-form" data-order-form hidden novalidate>
+        <div class="cart-total">
+          <span>Total estimado</span>
+          <strong data-cart-total></strong>
+        </div>
+        <p class="hint">El envío se calcula aparte. Confirmamos disponibilidad y precio final por mensaje.</p>
+
+        <label>Tu nombre
+          <input name="nombre" type="text" autocomplete="name" required />
+        </label>
+        <label>Entrega
+          <select name="entrega">
+            <option>Retiro en Salta</option>
+            <option>Envío dentro de Argentina</option>
+            <option>Envío al exterior</option>
+          </select>
+        </label>
+        <label data-ciudad-field>Ciudad / provincia
+          <input name="ciudad" type="text" autocomplete="address-level2" />
+        </label>
+        <label><span>Comentarios <span class="optional">(opcional)</span></span>
+          <textarea name="comentario" rows="2"></textarea>
+        </label>
+
+        <div class="order-actions">
+          <button class="btn btn--wa" type="submit" data-send="whatsapp">Pedir por WhatsApp</button>
+          <button class="btn btn--ghost" type="submit" data-send="email">Pedir por email</button>
+        </div>
+        <button class="link-btn" type="button" data-clear-cart>Vaciar pedido</button>
+      </form>
+    </div>
+  </aside>
+
+  <!-- ============ DETALLE DE PRODUCTO ============ -->
+  <dialog class="product-dialog" data-dialog aria-labelledby="dialog-title">
+    <button class="icon-btn product-dialog__close" type="button" data-close-dialog aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="product-dialog__inner" data-dialog-content></div>
+  </dialog>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
