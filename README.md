@@ -13,6 +13,8 @@ In **`js/config.js`**:
 | `whatsapp` | WhatsApp-Nummer international, ohne `+` und Leerzeichen, z. B. `5493871234567` |
 | `email` | E-Mail-Adresse für Bestellungen |
 | `instagram` | Instagram-Name ohne `@` (leer lassen zum Ausblenden) |
+| `mapaLink` | Google-Maps-Link für den Knopf „Cómo llegar“ |
+| `mapaEmbed` | Eingebettete Karte: in Google Maps → *Teilen* → *Karte einbetten* → nur die Adresse aus `src="…"` kopieren |
 | `mostrarPrecios` | `false` → überall „Consultar precio“ statt Preisen |
 
 > ⚠️ Die **Preise** in `js/products.js` sind nur Beispielwerte.

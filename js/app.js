@@ -37,6 +37,16 @@
       });
       $$("[data-ig-text]").forEach((el) => (el.textContent = "@" + T.instagram));
     }
+    $$("[data-map-link]").forEach((a) => (a.href = T.mapaLink || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(T.ubicacion)}`));
+    if (T.mapaEmbed) {
+      const iframe = document.createElement("iframe");
+      iframe.src = T.mapaEmbed;
+      iframe.title = `Mapa: ${T.nombre} en ${T.ubicacion}`;
+      iframe.loading = "lazy";
+      iframe.referrerPolicy = "no-referrer-when-downgrade";
+      iframe.allowFullscreen = true;
+      $("[data-map-placeholder]").replaceWith(iframe);
+    }
     $$("[data-ubicacion]").forEach((el) => (el.textContent = T.ubicacion));
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   }

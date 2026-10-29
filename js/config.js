@@ -17,6 +17,13 @@ window.TIENDA = {
 
   ubicacion: "Salta, Argentina",
 
+  // Enlace de Google Maps (botón "Cómo llegar")
+  mapaLink: "https://maps.app.goo.gl/p1gbKVrAqKjz9ght5",
+
+  // Mapa incrustado. En Google Maps: Compartir → Incorporar un mapa → copiar
+  // solo la dirección que está dentro de src="...". Dejar "" para no mostrarlo.
+  mapaEmbed: "",
+
   // Si es true, se muestran los precios. Si es false, todo dice "Consultar".
   mostrarPrecios: true,
 };
