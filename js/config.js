@@ -15,14 +15,14 @@ window.TIENDA = {
   // Opcional: usuario de Instagram sin "@" (dejar "" para ocultar)
   instagram: "",
 
-  ubicacion: "Salta, Argentina",
+  ubicacion: "Talapampa, Salta, Argentina",
 
   // Enlace de Google Maps (botón "Cómo llegar")
   mapaLink: "https://maps.app.goo.gl/p1gbKVrAqKjz9ght5",
 
   // Mapa incrustado. En Google Maps: Compartir → Incorporar un mapa → copiar
   // solo la dirección que está dentro de src="...". Dejar "" para no mostrarlo.
-  mapaEmbed: "",
+  mapaEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d911.2457255807138!2d-65.57475575175644!3d-25.573575876446753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94193c7ec93432d5%3A0x17cc862b4102984b!2sTalapampa%2C%20Salta%20Province%2C%20Argentina!5e0!3m2!1sen!2sch!4v1793282559004!5m2!1sen!2sch",
 
   // Si es true, se muestran los precios. Si es false, todo dice "Consultar".
   mostrarPrecios: true,

@@ -43,7 +43,7 @@
       iframe.src = T.mapaEmbed;
       iframe.title = `Mapa: ${T.nombre} en ${T.ubicacion}`;
       iframe.loading = "lazy";
-      iframe.referrerPolicy = "no-referrer-when-downgrade";
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
       iframe.allowFullscreen = true;
       $("[data-map-placeholder]").replaceWith(iframe);
     }
